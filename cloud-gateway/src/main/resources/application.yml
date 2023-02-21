@@ -25,6 +25,10 @@ spring:
               args:
                 name: DEPARTMENT-SERVICE
                 fallbackuri: forward:/departmentServiceFallBack
+  boot:
+    admin:
+      client:
+        url: http://localhost:9091/
 
 management:
   health:
